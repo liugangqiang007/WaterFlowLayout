@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D560A2662060F95A00DE9ABD /* GGMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D560A2652060F95A00DE9ABD /* GGMainViewController.m */; };
+		D560A2692060FFA900DE9ABD /* GGFallsLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D560A2682060FFA900DE9ABD /* GGFallsLayoutViewController.m */; };
+		D560A26C2060FFE700DE9ABD /* GGAngleLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D560A26B2060FFE700DE9ABD /* GGAngleLayoutViewController.m */; };
+		D576AE211CD9CCA200A0921E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D576AE201CD9CCA200A0921E /* main.m */; };
+		D576AE241CD9CCA200A0921E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D576AE231CD9CCA200A0921E /* AppDelegate.m */; };
+		D576AE2C1CD9CCA200A0921E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D576AE2B1CD9CCA200A0921E /* Assets.xcassets */; };
+		D576AE2F1CD9CCA200A0921E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D576AE2D1CD9CCA200A0921E /* LaunchScreen.storyboard */; };
+		D576AE3A1CD9CCA200A0921E /* GGWaterFlowLayout_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D576AE391CD9CCA200A0921E /* GGWaterFlowLayout_____Tests.m */; };
+		D576AE451CD9CCA200A0921E /* GGWaterFlowLayout_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D576AE441CD9CCA200A0921E /* GGWaterFlowLayout_____UITests.m */; };
+		D576AE9F1CD9D7EA00A0921E /* GGCollectionViewFallsLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D576AE9E1CD9D7EA00A0921E /* GGCollectionViewFallsLayout.m */; };
+		D5AE2D361D3E012A003B51F1 /* GGCollectionViewAngleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AE2D351D3E012A003B51F1 /* GGCollectionViewAngleLayout.m */; };
+		D5AE2D391D3E30EE003B51F1 /* GGAngleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AE2D381D3E30EE003B51F1 /* GGAngleCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D576AE361CD9CCA200A0921E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D576AE141CD9CCA200A0921E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D576AE1B1CD9CCA200A0921E;
+			remoteInfo = "GGWaterFlowLayout(瀑布流)";
+		};
+		D576AE411CD9CCA200A0921E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D576AE141CD9CCA200A0921E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D576AE1B1CD9CCA200A0921E;
+			remoteInfo = "GGWaterFlowLayout(瀑布流)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D560A2642060F95A00DE9ABD /* GGMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGMainViewController.h; sourceTree = "<group>"; };
+		D560A2652060F95A00DE9ABD /* GGMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGMainViewController.m; sourceTree = "<group>"; };
+		D560A2672060FFA900DE9ABD /* GGFallsLayoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGFallsLayoutViewController.h; sourceTree = "<group>"; };
+		D560A2682060FFA900DE9ABD /* GGFallsLayoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGFallsLayoutViewController.m; sourceTree = "<group>"; };
+		D560A26A2060FFE700DE9ABD /* GGAngleLayoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GGAngleLayoutViewController.h; sourceTree = "<group>"; };
+		D560A26B2060FFE700DE9ABD /* GGAngleLayoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GGAngleLayoutViewController.m; sourceTree = "<group>"; };
+		D576AE1C1CD9CCA200A0921E /* GGWaterFlowLayout(瀑布流).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GGWaterFlowLayout(瀑布流).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D576AE201CD9CCA200A0921E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D576AE221CD9CCA200A0921E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D576AE231CD9CCA200A0921E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D576AE2B1CD9CCA200A0921E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D576AE2E1CD9CCA200A0921E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D576AE301CD9CCA200A0921E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D576AE351CD9CCA200A0921E /* GGWaterFlowLayout(瀑布流)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GGWaterFlowLayout(瀑布流)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D576AE391CD9CCA200A0921E /* GGWaterFlowLayout_____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GGWaterFlowLayout_____Tests.m"; sourceTree = "<group>"; };
+		D576AE3B1CD9CCA200A0921E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D576AE401CD9CCA200A0921E /* GGWaterFlowLayout(瀑布流)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GGWaterFlowLayout(瀑布流)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D576AE441CD9CCA200A0921E /* GGWaterFlowLayout_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "GGWaterFlowLayout_____UITests.m"; sourceTree = "<group>"; };
+		D576AE461CD9CCA200A0921E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D576AE9D1CD9D7EA00A0921E /* GGCollectionViewFallsLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGCollectionViewFallsLayout.h; sourceTree = "<group>"; };
+		D576AE9E1CD9D7EA00A0921E /* GGCollectionViewFallsLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGCollectionViewFallsLayout.m; sourceTree = "<group>"; };
+		D5AE2D341D3E012A003B51F1 /* GGCollectionViewAngleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGCollectionViewAngleLayout.h; sourceTree = "<group>"; };
+		D5AE2D351D3E012A003B51F1 /* GGCollectionViewAngleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGCollectionViewAngleLayout.m; sourceTree = "<group>"; };
+		D5AE2D371D3E30EE003B51F1 /* GGAngleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGAngleCell.h; sourceTree = "<group>"; };
+		D5AE2D381D3E30EE003B51F1 /* GGAngleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGAngleCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D576AE191CD9CCA200A0921E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D576AE321CD9CCA200A0921E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D576AE3D1CD9CCA200A0921E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D576AE131CD9CCA200A0921E = {
+			isa = PBXGroup;
+			children = (
+				D576AE1E1CD9CCA200A0921E /* GGWaterFlowLayout(瀑布流) */,
+				D576AE381CD9CCA200A0921E /* GGWaterFlowLayout(瀑布流)Tests */,
+				D576AE431CD9CCA200A0921E /* GGWaterFlowLayout(瀑布流)UITests */,
+				D576AE1D1CD9CCA200A0921E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D576AE1D1CD9CCA200A0921E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D576AE1C1CD9CCA200A0921E /* GGWaterFlowLayout(瀑布流).app */,
+				D576AE351CD9CCA200A0921E /* GGWaterFlowLayout(瀑布流)Tests.xctest */,
+				D576AE401CD9CCA200A0921E /* GGWaterFlowLayout(瀑布流)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D576AE1E1CD9CCA200A0921E /* GGWaterFlowLayout(瀑布流) */ = {
+			isa = PBXGroup;
+			children = (
+				D576AE961CD9D76100A0921E /* Controller */,
+				D576AE9A1CD9D76100A0921E /* View */,
+				D576AE9C1CD9D79100A0921E /* Layout */,
+				D576AE1F1CD9CCA200A0921E /* Supporting Files */,
+			);
+			path = "GGWaterFlowLayout(瀑布流)";
+			sourceTree = "<group>";
+		};
+		D576AE1F1CD9CCA200A0921E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D576AE221CD9CCA200A0921E /* AppDelegate.h */,
+				D576AE231CD9CCA200A0921E /* AppDelegate.m */,
+				D576AE2B1CD9CCA200A0921E /* Assets.xcassets */,
+				D576AE2D1CD9CCA200A0921E /* LaunchScreen.storyboard */,
+				D576AE301CD9CCA200A0921E /* Info.plist */,
+				D576AE201CD9CCA200A0921E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D576AE381CD9CCA200A0921E /* GGWaterFlowLayout(瀑布流)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D576AE391CD9CCA200A0921E /* GGWaterFlowLayout_____Tests.m */,
+				D576AE3B1CD9CCA200A0921E /* Info.plist */,
+			);
+			path = "GGWaterFlowLayout(瀑布流)Tests";
+			sourceTree = "<group>";
+		};
+		D576AE431CD9CCA200A0921E /* GGWaterFlowLayout(瀑布流)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D576AE441CD9CCA200A0921E /* GGWaterFlowLayout_____UITests.m */,
+				D576AE461CD9CCA200A0921E /* Info.plist */,
+			);
+			path = "GGWaterFlowLayout(瀑布流)UITests";
+			sourceTree = "<group>";
+		};
+		D576AE961CD9D76100A0921E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D560A2642060F95A00DE9ABD /* GGMainViewController.h */,
+				D560A2652060F95A00DE9ABD /* GGMainViewController.m */,
+				D560A2672060FFA900DE9ABD /* GGFallsLayoutViewController.h */,
+				D560A2682060FFA900DE9ABD /* GGFallsLayoutViewController.m */,
+				D560A26A2060FFE700DE9ABD /* GGAngleLayoutViewController.h */,
+				D560A26B2060FFE700DE9ABD /* GGAngleLayoutViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D576AE9A1CD9D76100A0921E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D5AE2D371D3E30EE003B51F1 /* GGAngleCell.h */,
+				D5AE2D381D3E30EE003B51F1 /* GGAngleCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D576AE9C1CD9D79100A0921E /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				D576AE9D1CD9D7EA00A0921E /* GGCollectionViewFallsLayout.h */,
+				D576AE9E1CD9D7EA00A0921E /* GGCollectionViewFallsLayout.m */,
+				D5AE2D341D3E012A003B51F1 /* GGCollectionViewAngleLayout.h */,
+				D5AE2D351D3E012A003B51F1 /* GGCollectionViewAngleLayout.m */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D576AE1B1CD9CCA200A0921E /* GGWaterFlowLayout(瀑布流) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D576AE491CD9CCA200A0921E /* Build configuration list for PBXNativeTarget "GGWaterFlowLayout(瀑布流)" */;
+			buildPhases = (
+				D576AE181CD9CCA200A0921E /* Sources */,
+				D576AE191CD9CCA200A0921E /* Frameworks */,
+				D576AE1A1CD9CCA200A0921E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GGWaterFlowLayout(瀑布流)";
+			productName = "GGWaterFlowLayout(瀑布流)";
+			productReference = D576AE1C1CD9CCA200A0921E /* GGWaterFlowLayout(瀑布流).app */;
+			productType = "com.apple.product-type.application";
+		};
+		D576AE341CD9CCA200A0921E /* GGWaterFlowLayout(瀑布流)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D576AE4C1CD9CCA200A0921E /* Build configuration list for PBXNativeTarget "GGWaterFlowLayout(瀑布流)Tests" */;
+			buildPhases = (
+				D576AE311CD9CCA200A0921E /* Sources */,
+				D576AE321CD9CCA200A0921E /* Frameworks */,
+				D576AE331CD9CCA200A0921E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D576AE371CD9CCA200A0921E /* PBXTargetDependency */,
+			);
+			name = "GGWaterFlowLayout(瀑布流)Tests";
+			productName = "GGWaterFlowLayout(瀑布流)Tests";
+			productReference = D576AE351CD9CCA200A0921E /* GGWaterFlowLayout(瀑布流)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D576AE3F1CD9CCA200A0921E /* GGWaterFlowLayout(瀑布流)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D576AE4F1CD9CCA200A0921E /* Build configuration list for PBXNativeTarget "GGWaterFlowLayout(瀑布流)UITests" */;
+			buildPhases = (
+				D576AE3C1CD9CCA200A0921E /* Sources */,
+				D576AE3D1CD9CCA200A0921E /* Frameworks */,
+				D576AE3E1CD9CCA200A0921E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D576AE421CD9CCA200A0921E /* PBXTargetDependency */,
+			);
+			name = "GGWaterFlowLayout(瀑布流)UITests";
+			productName = "GGWaterFlowLayout(瀑布流)UITests";
+			productReference = D576AE401CD9CCA200A0921E /* GGWaterFlowLayout(瀑布流)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D576AE141CD9CCA200A0921E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = LGQ;
+				TargetAttributes = {
+					D576AE1B1CD9CCA200A0921E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D576AE341CD9CCA200A0921E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D576AE1B1CD9CCA200A0921E;
+					};
+					D576AE3F1CD9CCA200A0921E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D576AE1B1CD9CCA200A0921E;
+					};
+				};
+			};
+			buildConfigurationList = D576AE171CD9CCA200A0921E /* Build configuration list for PBXProject "GGWaterFlowLayout(瀑布流)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D576AE131CD9CCA200A0921E;
+			productRefGroup = D576AE1D1CD9CCA200A0921E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D576AE1B1CD9CCA200A0921E /* GGWaterFlowLayout(瀑布流) */,
+				D576AE341CD9CCA200A0921E /* GGWaterFlowLayout(瀑布流)Tests */,
+				D576AE3F1CD9CCA200A0921E /* GGWaterFlowLayout(瀑布流)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D576AE1A1CD9CCA200A0921E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D576AE2F1CD9CCA200A0921E /* LaunchScreen.storyboard in Resources */,
+				D576AE2C1CD9CCA200A0921E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D576AE331CD9CCA200A0921E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D576AE3E1CD9CCA200A0921E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D576AE181CD9CCA200A0921E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D576AE241CD9CCA200A0921E /* AppDelegate.m in Sources */,
+				D576AE9F1CD9D7EA00A0921E /* GGCollectionViewFallsLayout.m in Sources */,
+				D560A26C2060FFE700DE9ABD /* GGAngleLayoutViewController.m in Sources */,
+				D5AE2D391D3E30EE003B51F1 /* GGAngleCell.m in Sources */,
+				D576AE211CD9CCA200A0921E /* main.m in Sources */,
+				D560A2692060FFA900DE9ABD /* GGFallsLayoutViewController.m in Sources */,
+				D5AE2D361D3E012A003B51F1 /* GGCollectionViewAngleLayout.m in Sources */,
+				D560A2662060F95A00DE9ABD /* GGMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D576AE311CD9CCA200A0921E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D576AE3A1CD9CCA200A0921E /* GGWaterFlowLayout_____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D576AE3C1CD9CCA200A0921E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D576AE451CD9CCA200A0921E /* GGWaterFlowLayout_____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D576AE371CD9CCA200A0921E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D576AE1B1CD9CCA200A0921E /* GGWaterFlowLayout(瀑布流) */;
+			targetProxy = D576AE361CD9CCA200A0921E /* PBXContainerItemProxy */;
+		};
+		D576AE421CD9CCA200A0921E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D576AE1B1CD9CCA200A0921E /* GGWaterFlowLayout(瀑布流) */;
+			targetProxy = D576AE411CD9CCA200A0921E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D576AE2D1CD9CCA200A0921E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D576AE2E1CD9CCA200A0921E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D576AE471CD9CCA200A0921E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D576AE481CD9CCA200A0921E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D576AE4A1CD9CCA200A0921E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GGWaterFlowLayout(瀑布流)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lchr.GGWaterFlowLayout-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D576AE4B1CD9CCA200A0921E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GGWaterFlowLayout(瀑布流)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lchr.GGWaterFlowLayout-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D576AE4D1CD9CCA200A0921E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GGWaterFlowLayout(瀑布流)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lchr.GGWaterFlowLayout-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GGWaterFlowLayout(瀑布流).app/GGWaterFlowLayout(瀑布流)";
+			};
+			name = Debug;
+		};
+		D576AE4E1CD9CCA200A0921E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GGWaterFlowLayout(瀑布流)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lchr.GGWaterFlowLayout-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GGWaterFlowLayout(瀑布流).app/GGWaterFlowLayout(瀑布流)";
+			};
+			name = Release;
+		};
+		D576AE501CD9CCA200A0921E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GGWaterFlowLayout(瀑布流)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lchr.GGWaterFlowLayout-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "GGWaterFlowLayout(瀑布流)";
+			};
+			name = Debug;
+		};
+		D576AE511CD9CCA200A0921E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GGWaterFlowLayout(瀑布流)UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lchr.GGWaterFlowLayout-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "GGWaterFlowLayout(瀑布流)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D576AE171CD9CCA200A0921E /* Build configuration list for PBXProject "GGWaterFlowLayout(瀑布流)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D576AE471CD9CCA200A0921E /* Debug */,
+				D576AE481CD9CCA200A0921E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D576AE491CD9CCA200A0921E /* Build configuration list for PBXNativeTarget "GGWaterFlowLayout(瀑布流)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D576AE4A1CD9CCA200A0921E /* Debug */,
+				D576AE4B1CD9CCA200A0921E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D576AE4C1CD9CCA200A0921E /* Build configuration list for PBXNativeTarget "GGWaterFlowLayout(瀑布流)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D576AE4D1CD9CCA200A0921E /* Debug */,
+				D576AE4E1CD9CCA200A0921E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D576AE4F1CD9CCA200A0921E /* Build configuration list for PBXNativeTarget "GGWaterFlowLayout(瀑布流)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D576AE501CD9CCA200A0921E /* Debug */,
+				D576AE511CD9CCA200A0921E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D576AE141CD9CCA200A0921E /* Project object */;
+}
